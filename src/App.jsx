@@ -3,6 +3,7 @@ import OddView from "./components/OddView";
 import EvenView from "./components/EvenView";
 
 const App = () => {
+  document.title = "Mini app";
   const [chatId, setChatId] = useState(null);
 
   useEffect(() => {
